@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgb(164, 241, 255);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+        }
+
+        .subject {
+            background: #ffffff;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .subject:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px #b14bf633;
+        }
+
+        h2 {
+            color: #444;
+            font-size: 20px;
+        }
+
+        button {
+            background: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #005f7f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Subjects</h1>
+
+        <div class="subject">
+            <h2>Engineering Chemistry</h2>
+            <button onclick="window.location.href='subjects/chemistry.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Computer Aided Drawing (CAED)</h2>
+            <button onclick="window.location.href='subjects/caed.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Introduction to Electrical Engineering</h2>
+            <button onclick="window.location.href='subjects/ec.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Applied Mathematics-1</h2>
+            <button onclick="window.location.href='subjects/maths.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Engineering Mechanics</h2>
+            <button onclick="window.location.href='subjects/mechanics.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Introduction to Python</h2>
+            <button onclick="window.location.href='subjects/python.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Language Proficiency Course 1</h2>
+            <button onclick="window.location.href='subjects/english.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Constitution of India and Professional Ethics</h2>
+            <button onclick="window.location.href='subjects/Constitution.html'">View Content</button>
+        </div>
+
+        <div class="subject">
+            <h2>Innovation and Design Thinking (IDT)</h2>
+            <button onclick="window.location.href='subjects/idt.html'">View Content</button>
+        </div>
+    </div>
+</body>
+</html>
