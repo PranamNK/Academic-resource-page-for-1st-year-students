@@ -8,7 +8,7 @@ Features
 ✅ Simple and user-friendly interface for easy navigation.
 
 How to Use
-1.Clone the repository using:git clone https://github.com/pranamnk/Acadamic-resource-page-for-1st-year-students.git
+1.Clone the repository using:git clone https://github.com/pranamnk/Academic-resource-page-for-1st-year-students.git
 Open the folder in VS Code or any text editor.
 Open index.html in your browser.
 
